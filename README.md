@@ -1,2 +1,5 @@
 # hello-world
-For Rock 's test and learning purpose.
+Hi Human!
+
+
+Hello here, this is my first day to use github. It 
