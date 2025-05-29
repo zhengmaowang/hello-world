@@ -1,0 +1,15 @@
+trigger:
+- main  # Change this to your main branch name if different
+
+pool:
+  name: agent01
+
+steps:
+- script: |
+    echo "Hello, World!" > helloworld.txt
+  displayName: 'Create HelloWorld file'
+
+- publish: helloworld.txt
+  artifact: helloworld
+  displayName: 'Publish HelloWorld Artifact'
+
